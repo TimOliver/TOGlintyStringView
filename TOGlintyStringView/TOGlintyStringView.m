@@ -76,7 +76,7 @@
 #pragma mark - Set-up -
 - (void)setUp
 {
-    self.text = @"slide to unlock";
+    self.text = NSLocalizedString(@"slide to unlock", @"");
     self.chevronSpacing = 10.0f;
     
 #if TARGET_OS_IPHONE

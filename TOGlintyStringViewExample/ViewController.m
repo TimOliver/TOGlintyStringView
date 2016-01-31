@@ -19,8 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.stringView.text = @"github.com/timoliver";
     self.stringView.chevronImage = [TOGlintyStringView defaultChevronImage];
 }
 
