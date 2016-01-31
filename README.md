@@ -36,4 +36,4 @@ It also incorporates the [`string-to-CGPathRef`](https://github.com/aderussell/s
 
 # License
 
-`TOGlintyStringView` is available under the MIT license. Please see the [LICENSE] file for more information
+`TOGlintyStringView` is available under the MIT license. Please see the [LICENSE](LICENSE) file for more information
