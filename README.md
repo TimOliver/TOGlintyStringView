@@ -31,6 +31,7 @@ While you're free to try, I wouldn't recommend trying to submit an app to the Ap
 # Credits
 
 `TOGlintyStringView` was created by Tim Oliver as a Core Animation experiment.
+
 It also incorporates the [`string-to-CGPathRef`](https://github.com/aderussell/string-to-CGPathRef) library, created by Adrian Russell, 2014
 
 # License
