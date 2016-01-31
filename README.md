@@ -34,6 +34,8 @@ While you're free to try, I wouldn't recommend trying to submit an app to the Ap
 
 It also incorporates the [`string-to-CGPathRef`](https://github.com/aderussell/string-to-CGPathRef) library, created by Adrian Russell, 2014
 
+iPhone 6s Plus device mockup by [Pixeden](http://www.pixeden.com).
+
 # License
 
 `TOGlintyStringView` is available under the MIT license. Please see the [LICENSE](LICENSE) file for more information
