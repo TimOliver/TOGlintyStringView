@@ -3,7 +3,7 @@
 # TOGlintyStringView
 `TOGlintyStringView` is a complete re-implementation of [`_UIGlintyStringView`](https://github.com/JaviSoto/iOS9-Runtime-Headers/blob/51598b5f73399e4737bc067ed6b9bd5bd9a8b0d1/Frameworks/UIKit.framework/_UIGlintyStringView.h), the internal UIKit `UIView` responsible for the '> slide to unlock' text on every iOS device's lock screen.
 
-It was created by copying the `UIView` / `CALayer` configuration of `_UIGlintyStringView` after introspecting it via [Reveal app](http://revealapp.com) as well as lot of console logging.
+It was created by copying the `UIView` / `CALayer` configuration of `_UIGlintyStringView` after introspecting it via [Reveal app](http://revealapp.com) as well as a lot of console logging.
 
 As this library (most likely) cannot be used in shipping iOS apps, it's being presented here without warranty in the hopes it may have educational value to fellow developers!
 
@@ -14,7 +14,7 @@ I'll improve this section down the line, but in a nutshell, it is comprised of 6
 * The top layer contains a bitmap of the text, used as a mask to clip the rest of the content.
 * The second layer is a flat, partially transparent grey layer used as the base color of the effect.
 * The third layer is the white 'sheen' gradient that results in the pure white section of the effect.
-* The fourth layer is a simple `CAGradientLayer` that when blended with the other two gradients, creates a wedge shape falloff on either side of the sheen effect.
+* The fourth layer is a simple `CAGradientLayer` that when blended with the gradient layers above and below it, creates a wedge shape falloff on either side of the sheen effect.
 * The fifth layer is a much wider, and less opaque gradient that creates the 'build-up' effect on either side of the sheen.
 * The sixth layer is a `CAShapeLayer` that takes a `CGPath` outline of the text, and produces a blurred, dashed-line outline, that is then blended with the gradients to produce that subtle 'fractal' effect.
 
