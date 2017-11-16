@@ -38,4 +38,4 @@ iPhone 6s Plus device mockup by [Pixeden](http://www.pixeden.com).
 
 # License
 
-`TOGlintyStringView` is available under the MIT license. Please see the [LICENSE](LICENSE) file for more information
+`TOGlintyStringView` is available under the MIT license. Please see the [LICENSE](LICENSE) file for more information. ![analytics](https://ga-beacon.appspot.com/UA-5643664-16/TOGlintyStringView/README.md?pixel)
